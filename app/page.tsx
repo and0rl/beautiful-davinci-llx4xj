@@ -1,113 +1,100 @@
-import Image from 'next/image'
+import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 w-full max-w-5xl items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.tsx</code>
+    <main className="flow content-grid">
+      <>
+        <h1 className="site-title">
+          Ordine Periti Industriali <br /> Provincia&nbsp; di Benevento
+        </h1>
+        <p>
+          It can be useful to have a system in place that's easy to go
+          full-width, or have a "breakout" section for calls to action or
+          blockquotes, or other things you want to call attention to.
         </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
-        </div>
-      </div>
-
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://beta.nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
+        <p className="breakout">
+          Traditionally, we use a container or wrapper, which we need to close,
+          and then open again, but thanks to grid, and with the recent additions
+          of subgrid to all the evergreen browsers, maybe there's a better way
+          to do things?
+        </p>
+        <p>
+          It has it's downsides, as the code is more complex, and it's not as
+          obvious how it works when we're so used to the old pattern.
+        </p>
+        <p>
+          That said, we shouldn't limit ourselves just because we are used to
+          working in a specific way.
+        </p>
+        <section className="full-width bg-primary section-padding flow">
+          <h2>This section has a different background-color</h2>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quibusdam
+            voluptates vitae reiciendis corporis molestias aspernatur vero eaque
+            obcaecati neque dolores veritatis repudiandae voluptas consectetur
+            voluptatum nobis maiores doloremque, nostrum deleniti!
           </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800 hover:dark:bg-opacity-30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
+          <p>
+            Aspernatur, dignissimos. Quaerat corporis, itaque porro dolore ea a
+            placeat molestiae nihil voluptatem veniam facere, corrupti in vel,
+            voluptates enim soluta sint dolores? Quaerat laboriosam iusto
+            voluptatem accusantium ex alias?
           </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore the Next.js 13 playground.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
+        </section>
+        <h2>Back to normal</h2>
+        <p>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto
+          nam at praesentium cumque rem molestias earum officia neque nemo sunt
+          laboriosam vero eum optio, saepe dolorem exercitationem quod
+          asperiores iste?
+        </p>
+        <p className="breakout call-to-action">
+          Not sure why, but we could set things up if ever you wanted random
+          text to be full-bleed without bothering with a div or anything on the
+          outside of it as well
+        </p>
+        <p>
+          Error nulla doloribus ex, eius voluptates saepe, in quae ea nesciunt
+          rem possimus obcaecati consequuntur deleniti. Tempore deleniti
+          deserunt harum, distinctio, culpa atque numquam ducimus repellat fugit
+          iusto eveniet velit.
+        </p>
+        <h3>Images as full-bleed works too</h3>
+        <img className="full-width" src="https://unsplash.it/1600/400" alt="" />
+        <p>
+          Exercitationem dolorum animi at autem tempore omnis, dolorem saepe
+          sint totam architecto, vitae cum doloribus illo? Laudantium laboriosam
+          saepe eligendi ipsam corrupti molestias expedita tempora eos minima,
+          facere, eius dicta.
+        </p>
+        <p>
+          Magnam eius beatae similique officiis quaerat. Natus est dicta
+          temporibus a. Aut mollitia magnam quo. Sequi repellendus voluptas quia
+          suscipit autem iste! Accusamus, delectus beatae inventore obcaecati ut
+          totam ab.
+        </p>
+        <p>
+          Eligendi ea maiores asperiores sed nobis qui, animi sint? Ratione
+          laboriosam cum quasi repudiandae in, necessitatibus veritatis nihil
+          perferendis maiores consequuntur magnam perspiciatis minus est
+          quibusdam, voluptate voluptas natus corporis.
+        </p>
+        <p>
+          Vero, facilis! Animi quam dolor a sunt, quae placeat perspiciatis quia
+          odio quisquam at tempore dolorem eum ratione vel minima eaque
+          repellendus dolores architecto necessitatibus velit reprehenderit amet
+          et rem.
+        </p>
+        <p>
+          Quos, animi expedita facere iste soluta accusamus et facilis,
+          temporibus nemo praesentium iusto aliquam voluptas magnam pariatur
+          blanditiis optio, corporis laborum quas? Quis libero aperiam est fuga
+          veniam eos tenetur?
+        </p>
+        <section className="bg-primary full-width">
+          <h3>content</h3>
+        </section>
+      </>
     </main>
-  )
+  );
 }
