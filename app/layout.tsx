@@ -6,7 +6,7 @@ import Image from "next/image";
 //const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: "Create Next App",
+  title: "Ordine dei Periti Industriali di Benevento",
   description:
     "Sito dell&amp; Ordine dei Periti Industriali della Provincia di Benevento, ultimi Avvisi, modulistica e altre informazioni",
 };
@@ -23,7 +23,7 @@ export default function RootLayout({
           <div className="primary-header__layout breakout">
             <h1 className="site-title">
               {/* <Image src="/logo.svg" width={50} height={50}></Image> */}
-              <img className="logo" src="/logo.svg" />
+              <img className="logo" src="/logo.svg" alt="logo" />
               Ordine Periti Industriali Provincia di Benevento
             </h1>
 

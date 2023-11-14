@@ -43,8 +43,8 @@ img.full-width {
 }
 
 :root {
-  --color-scheme: dark;
-
+  /*   --color-scheme: dark;
+ */
   --font-family: system-ui;
 
   --fs-300: clamp(0.94rem, calc(0.92rem + 0.08vw), 0.98rem);
@@ -61,7 +61,7 @@ img.full-width {
   --clr-secondary-300: hsl(269, 75%, 55%);
   --clr-secondary-400: hsl(269, 75%, 40%);
   --clr-secondary-500: hsl(269, 75%, 25%);
-  --clr-accent-200: hsl(358, 85%, 80%);
+  --clr-accent-200: hsl(246.46deg 20.83% 92.23%);
   --clr-accent-300: hsl(358, 72%, 65%);
   --clr-accent-400: hsl(358, 72%, 50%);
   --clr-accent-500: hsl(358, 72%, 35%);
@@ -191,4 +191,28 @@ nav a:focus {
 .even-columns {
   display: flex;
   gap: 1rem;
+}
+
+header {
+  position: fixed;
+  width: 100%;
+}
+
+.site-title-alt {
+  margin-top: 7rem;
+}
+
+ul.direttivo li {
+  /*   width: 500px;
+  display: flex;
+  justify-content: space-between; */
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  max-width: 30ch;
+}
+
+ul.direttivo li span {
+  /* display: inline-flex; 
+  /* text-align: right; */
+  /* width: 100%; */
 }
