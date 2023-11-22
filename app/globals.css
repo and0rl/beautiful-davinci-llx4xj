@@ -1,3 +1,34 @@
+/* https://www.youtube.com/watch?v=c13gpBrnGEw */
+/* A new approach to container and wrapper classes - Kevin Powell
+ */
+
+/* https://gist.github.com/AndrewCraswell/106143d1bb5d4162689b9e1d89a2d0fb */
+@font-face {
+  font-family: "Segoe UI";
+  src:
+    local("Segoe UI Bold"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.woff2)
+      format("woff2"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.woff)
+      format("woff"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/bold/latest.ttf)
+      format("truetype");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Segoe UI";
+  src:
+    local("Segoe UI"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2)
+      format("woff2"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff)
+      format("woff"),
+    url(//c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.ttf)
+      format("truetype");
+  font-weight: 400;
+}
+
 .content-grid {
   --padding-inline: 1rem;
   --content-max-width: 900px;
@@ -38,15 +69,15 @@
 
 img.full-width {
   width: 100%;
-  max-height: 45vh;
+  max-height: 25vh;
   object-fit: cover;
 }
 
 :root {
   /*   --color-scheme: dark;
  */
-  --font-family: system-ui;
-
+  /* --font-family: system-ui; */
+  --font-family: "Segoe UI", system-ui;
   --fs-300: clamp(0.94rem, calc(0.92rem + 0.08vw), 0.98rem);
   --fs-400: clamp(1.13rem, calc(1.06rem + 0.33vw), 1.31rem);
   --fs-500: clamp(1.35rem, calc(1.21rem + 0.69vw), 1.75rem);
@@ -78,10 +109,20 @@ html {
 }
 
 body {
+  /* holy grail */
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+
   margin: 0;
   font-family: var(--font-family);
   font-size: var(--fs-400);
   line-height: 1.6;
+}
+
+main {
+  /* holy grail */
+  flex: 1;
 }
 
 h1,
@@ -93,6 +134,10 @@ h6,
 p,
 figure {
   margin: 0;
+}
+
+a {
+  color: var(--clr-primary-500);
 }
 
 img {
@@ -109,6 +154,8 @@ img {
   line-height: 0.9;
 
   align-items: center;
+
+  gap: 5px;
 }
 
 .section-title {
@@ -133,6 +180,8 @@ img {
 .call-to-action {
   padding: 1rem;
   background: hsl(0 0% 100% / 0.15);
+  text-align: center;
+  /*  margin-left: 1em; */
 }
 
 .wrapper {
@@ -160,10 +209,12 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  flex-flow: row wrap;
 }
 
 .logo {
   max-width: 60px;
+  height: auto;
 }
 
 nav ul {
@@ -179,12 +230,12 @@ nav a {
   color: inherit;
   text-decoration: none;
   font-size: var(--fs-400);
-  font-weight: bold;
+  font-weight: normal;
 }
 
 nav a:hover,
 nav a:focus {
-  color: var(--clr-accent-500);
+  color: var(--clr-primay-500);
   text-decoration: underline;
 }
 
@@ -198,8 +249,31 @@ header {
   width: 100%;
 }
 
+.list-unstyled {
+  list-style: none;
+}
+
+.mt0 {
+  margin-top: 0;
+}
+
 .site-title-alt {
+  font-size: var(--fs-700);
   margin-top: 7rem;
+  line-height: normal;
+
+  display: grid;
+  /* grid-template-columns: max-content; */
+  text-wrap: balance;
+}
+
+.site-title-alt span {
+  font-size: var(--fs-500);
+  font-weight: bold;
+  justify-self: start;
+  /*  margin-top: -10px;
+  margin-left: 1em; */
+  /*  margin: -5px -5px -8px 2px; */
 }
 
 ul.direttivo li {
@@ -208,11 +282,100 @@ ul.direttivo li {
   justify-content: space-between; */
   display: grid;
   grid-template-columns: 1fr 1fr;
-  max-width: 30ch;
+}
+
+@media screen and (max-width: 720px) {
+  .logo {
+    width: 45px;
+  }
+  .primary-header {
+    padding-block: 0.5rem;
+  }
+  nav ul {
+    margin-top: 0.2rem;
+  }
+}
+
+@media screen and (max-width: 540px) {
+  ul.list-unstyled li {
+    line-height: normal;
+    margin-bottom: 0.6rem;
+  }
+  ul.direttivo li {
+    line-height: 1;
+    margin-bottom: 0.6rem;
+  }
 }
 
 ul.direttivo li span {
-  /* display: inline-flex; 
-  /* text-align: right; */
-  /* width: 100%; */
+  align-self: center;
+}
+
+.light-text {
+  color: white;
+}
+
+footer {
+  background: var(--clr-accent-200);
+  color: var(--clr-primary-500);
+  padding-block: 1rem;
+}
+
+.footer-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+h2.title {
+  margin-top: 7rem;
+}
+
+.utility {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.utility button,
+.utility input {
+  font-size: inherit;
+}
+
+.button-group {
+  display: flex;
+  gap: 1rem;
+}
+
+/* w3c table css */
+
+.albo-table {
+  overflow-x: auto;
+}
+
+#iscritti {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#iscritti td,
+#iscritti th {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+#iscritti tr:nth-child(even) {
+  background-color: var(--clr-accent-200);
+}
+
+/* #iscritti tr:hover {
+  background-color: #ddd;
+} */
+
+#iscritti th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: var(--clr-primary-500);
+  color: white;
 }

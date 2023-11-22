@@ -1,12 +1,17 @@
 import Image from "next/image";
+import arcoTraiano from "../public/arco-traiano.jpg";
+import young from "../public/young.jpg";
 
 export default function Home() {
   return (
     <main className="flow content-grid">
       <h1 className="site-title-alt">
-        Ordine dei Periti Industriali e dei Periti Industriali Laureati della
-        Provincia&nbsp; di Benevento
+        Ordine dei Periti Industriali
+        <span>
+          e dei Periti Industriali Laureati della Provincia di Benevento{" "}
+        </span>
       </h1>
+      <hr />
       <h2>Storia</h2>
       <p>
         Nel 1923 con la Legge numero 1395, che prevedeva anche la costituzione
@@ -24,91 +29,131 @@ export default function Home() {
         Grimaldi.
       </p>
 
-      <section className="full-width bg-primary section-padding flow">
+      <section className="full-width bg-primary section-padding flow light-text">
         <h2>Consiglio Direttivo</h2>
-        <p>L’Ordine ha un Consiglio Direttivo composto da 7 Consiglieri:</p>
+        <p>L’Ordine ha un Consiglio Direttivo così composto:</p>
         <ul className="direttivo">
           <li>
-            <span> Per. Ind. Mario Grimaldi</span> <span> - Presidente</span>
+            Per.Ind. Mario Grimaldi <span> - Presidente</span>
           </li>
           <li>
-            <span>Per. Ind. Antonio Poppa</span> <span> - Vice Presidente</span>
+            Per.Ind. Antonio Poppa <span> - Vice Presidente</span>
           </li>
           <li>
-            <span>Per. Ind. Bruno Bovino</span> <span> - Tesoriere</span>
+            Ing.Per.Ind. De Luca Giancarlo <span> - Segretario</span>
           </li>
           <li>
-            <span>Per. Ind. Adriano Leoni</span> <span> - Segretario</span>
+            Per.Ind. Mesisca Ludovico <span> - Tesoriere</span>
           </li>
           <li>
-            <span>Per. Ind. Dott. Pasquale Mongillo</span>{" "}
+            Per.Ind. Adriano Leoni
             <span> - Consigliere</span>
           </li>
           <li>
-            <span>Per. Ind. Massimiliano Trepiedi</span>
+            Per.Ind.Dott. Pasquale Mongillo
+            <span> - Consigliere</span>
+          </li>
+          <li>
+            Per.Ind. De Vita Valeriano
             <span> - Consigliere</span>
           </li>
         </ul>
-        <p>
-          Aspernatur, dignissimos. Quaerat corporis, itaque porro dolore ea a
-          placeat molestiae nihil voluptatem veniam facere, corrupti in vel,
-          voluptates enim soluta sint dolores? Quaerat laboriosam iusto
-          voluptatem accusantium ex alias?
-        </p>
       </section>
-      <h2>Back to normal</h2>
+      {/*  <img className="full-width mt0" src="/arco-traiano.jpg" alt="" /> */}
+      <Image
+        src={arcoTraiano}
+        className="full-width mt0"
+        sizes="100vw"
+        alt="monumento arco di traiano a benevento"
+        style={{ height: "auto" }}
+      />
+      <h2>Finalità e Normativa</h2>
       <p>
-        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto nam
-        at praesentium cumque rem molestias earum officia neque nemo sunt
-        laboriosam vero eum optio, saepe dolorem exercitationem quod asperiores
-        iste?
+        Ai Periti Industriali, nell’esercizio della professione nell’ambito
+        della propria specializzazione, è consentita la progettazione,
+        direzione, collaudo, misura, contabilità, estimo e stima di modeste
+        costruzioni civili e semplici macchine nonché installazioni meccaniche,
+        elettriche, elettroniche, chimiche, informatiche, etc.
       </p>
       <p className="breakout call-to-action">
-        Not sure why, but we could set things up if ever you wanted random text
-        to be full-bleed without bothering with a div or anything on the outside
-        of it as well
+        <strong>
+          L’iscrizione all&apos;Albo è obbligatoria per l’esercizio della
+          professione.{" "}
+        </strong>
       </p>
       <p>
-        Error nulla doloribus ex, eius voluptates saepe, in quae ea nesciunt rem
-        possimus obcaecati consequuntur deleniti. Tempore deleniti deserunt
-        harum, distinctio, culpa atque numquam ducimus repellat fugit iusto
-        eveniet velit.
+        Per l&apos;abilitazione all&apos;esercizio della professione è
+        necessario sostenere l&apos;esame di Stato come istituito dalla legge
+        17/90 e disciplinato dal Ministero della Pubblica Istruzione ai sensi
+        del D.M. del 29 Dicembre 1991 num. 445.
       </p>
-      <h3>Images as full-bleed works too</h3>
-      <img className="full-width" src="https://unsplash.it/1600/400" alt="" />
-      <p>
-        Exercitationem dolorum animi at autem tempore omnis, dolorem saepe sint
-        totam architecto, vitae cum doloribus illo? Laudantium laboriosam saepe
-        eligendi ipsam corrupti molestias expedita tempora eos minima, facere,
-        eius dicta.
-      </p>
-      <p>
-        Magnam eius beatae similique officiis quaerat. Natus est dicta
-        temporibus a. Aut mollitia magnam quo. Sequi repellendus voluptas quia
-        suscipit autem iste! Accusamus, delectus beatae inventore obcaecati ut
-        totam ab.
-      </p>
-      <p>
-        Eligendi ea maiores asperiores sed nobis qui, animi sint? Ratione
-        laboriosam cum quasi repudiandae in, necessitatibus veritatis nihil
-        perferendis maiores consequuntur magnam perspiciatis minus est
-        quibusdam, voluptate voluptas natus corporis.
-      </p>
-      <p>
-        Vero, facilis! Animi quam dolor a sunt, quae placeat perspiciatis quia
-        odio quisquam at tempore dolorem eum ratione vel minima eaque
-        repellendus dolores architecto necessitatibus velit reprehenderit amet
-        et rem.
-      </p>
-      <p>
-        Quos, animi expedita facere iste soluta accusamus et facilis, temporibus
-        nemo praesentium iusto aliquam voluptas magnam pariatur blanditiis
-        optio, corporis laborum quas? Quis libero aperiam est fuga veniam eos
-        tenetur?
-      </p>
-      <section className="bg-primary full-width">
-        <h3>content</h3>
+      {/* <h3>Images as full-bleed works too</h3> */}
+      <section className="full-width bg-primary section-padding flow light-text">
+        <h2>Requisiti per l&apos;iscrizione all&apos;Albo:</h2>
+
+        <ul className="list-unstyled">
+          <li>Conseguimento del diploma di Perito Industriale &#10004;</li>
+          <li>
+            Svolgimento della pratica professionale per un periodo di diciotto
+            mesi &#10004;
+          </li>
+          <li>Superamento dell’esame di abilitazione &#10004;</li>
+        </ul>
       </section>
+      {/*  <img className="full-width mt0" src="/young.jpg" alt="" /> */}
+      <Image
+        src={young}
+        className="full-width mt0"
+        sizes="100vw"
+        style={{ height: "auto" }}
+        alt="giovani periti industriali al lavoro"
+      />
+
+      <h3>Modulistica</h3>
+      <ul className="list-unstyled">
+        <li>
+          <a href="#" target="_blank">
+            Domanda di Iscrizione all&apos;Albo <span>&#10138;</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" target="_blank">
+            Domanda di Praticantato <span>&#10138;</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" target="_blank">
+            Dich.ne del Professionista inizio Praticantato <span>&#10138;</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" target="_blank">
+            Integrazione Dati Anagrafici <span>&#10138;</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" target="_blank">
+            Dich.ne Smarrimento Documenti <span>&#10138;</span>
+          </a>
+        </li>
+        <li>
+          <a href="#" target="_blank">
+            Domanda di Cancellazione dall&apos;Ordine <span>&#10138;</span>
+          </a>
+        </li>
+      </ul>
+
+      {/* <section className="bg-primary full-width">
+        <h3>content</h3>
+      </section> */}
+      {/* <footer className="content-grid full-width">
+        <div className="breakout footer-wrapper">
+          <small>&#169;2023</small>
+          <small>
+            <a href="/">Privacy e Cookie</a>
+          </small>
+        </div>
+      </footer> */}
     </main>
   );
 }

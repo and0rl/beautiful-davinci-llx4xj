@@ -1,0 +1,863 @@
+[
+  {
+    "Nr": "334",
+    "Cognome": "ANTONACI",
+    "Nome": "ACHILLE",
+    "Iscrizione": "1996",
+    "Ramo": "ELETTROTECNICA"
+  },
+  {
+    "Nr": "417",
+    "Cognome": "ARGANESE",
+    "Nome": "NICOLA",
+    "Iscrizione": "2018",
+    "Ramo": "TERMOTECNICA"
+  },
+  {
+    "Nr": "344",
+    "Cognome": "BELLONE",
+    "Nome": "MARCO",
+    "Iscrizione": "1998",
+    "Ramo": "ELETTROTECNICA"
+  },
+  {
+    "Nr": "298",
+    "Cognome": "BELLONE",
+    "Nome": "SERGIO",
+    "Iscrizione": "1989",
+    "Ramo": "ELETTROTECNICA"
+  },
+  {
+    "Nr": "170",
+    "Cognome": "BELLONIO",
+    "Nome": "POMPEO",
+    "Iscrizione": "1978",
+    "Ramo": "TERMOTECNICA"
+  },
+  {
+    "Nr": "428",
+    "Cognome": "BIANCO",
+    "Nome": "CARLO",
+    "Iscrizione": "2021",
+    "Ramo": ""
+  },
+  {
+    "Nr": "309",
+    "Cognome": "BORINO",
+    "Nome": "ANTONIO",
+    "Iscrizione": "1990",
+    "Ramo": "ELETTROTECNICA"
+  },
+  {
+    "Nr": "342",
+    "Cognome": "BOSCO",
+    "Nome": "CARLO ALBERTO",
+    "Iscrizione": "1998",
+    "Ramo": "ELETTROTECNICA"
+  },
+  {
+    "Nr": "275",
+    "Cognome": "BOTTE",
+    "Nome": "GUIDO",
+    "Iscrizione": "1998",
+    "Ramo": "MECCANICA"
+  },
+  {
+    "Nr": "434",
+    "Cognome": "BOTTE",
+    "Nome": "LUIGI",
+    "Iscrizione": "2022",
+    "Ramo": ""
+  },
+  {
+    "Nr": "340",
+    "Cognome": "BOTTICELLA",
+    "Nome": "COSIMO",
+    "Iscrizione": "1997",
+    "Ramo": "MECCANICA"
+  },
+  {
+    "Nr": "26",
+    "Cognome": "BOTTICELLA",
+    "Nome": "ERNESTO",
+    "Iscrizione": "1970",
+    "Ramo": "MECCANICA"
+  },
+  {
+    "Nr": "437",
+    "Cognome": "BOZZI ",
+    "Nome": "VINCENZO",
+    "Iscrizione": "2023",
+    "Ramo": ""
+  },
+  {
+    "Nr": "363",
+    "Cognome": "CALLISTO",
+    "Nome": "MARINO",
+    "Iscrizione": "2001",
+    "Ramo": "ELETTROTECNICA"
+  },
+  {
+    "Nr": "328",
+    "Cognome": "CAPORASO",
+    "Nome": "VINCENZO",
+    "Iscrizione": "1993",
+    "Ramo": "ELETTROTECNICA"
+  },
+  {
+    "Nr": "399",
+    "Cognome": "CARDONE",
+    "Nome": "ANTONIO",
+    "Iscrizione": "2012",
+    "Ramo": "ELETTR0TECNICA/AUTOM."
+  },
+  {
+    "Nr": "261",
+    "Cognome": "CARPENTIERO",
+    "Nome": "UMBERTO",
+    "Iscrizione": "1987",
+    "Ramo": "TERMOTECNICA"
+  },
+  {
+    "Nr": "48",
+    "Cognome": "CARPINONE",
+    "Nome": "DONATO",
+    "Iscrizione": "1972",
+    "Ramo": "MECCANICA"
+  },
+  {
+    "Nr": "404",
+    "Cognome": "CARPINONE",
+    "Nome": "GIOVANNI",
+    "Iscrizione": "2014",
+    "Ramo": "MECCANICA"
+  },
+  {
+    "Nr": "213",
+    "Cognome": "CATALANO",
+    "Nome": "ANTONIO",
+    "Iscrizione": "1983",
+    "Ramo": "TERMOTECNICA"
+  },
+  {
+    "Nr": "281",
+    "Cognome": "CAVOTO",
+    "Nome": "DIODORO",
+    "Iscrizione": "1988",
+    "Ramo": "METALMECCANICA"
+  },
+  {
+    "Nr": "405",
+    "Cognome": "CIERVO",
+    "Nome": "CARMINE",
+    "Iscrizione": "2014",
+    "Ramo": "ELETTR0TECNICA AUT"
+  },
+  {
+    "Nr": "412",
+    "Cognome": "CIROCCO",
+    "Nome": "ANGELO",
+    "Iscrizione": "2017",
+    "Ramo": "TERMOTECNICA"
+  },
+  {
+    "Nr": "247",
+    "Cognome": "CITARELLA",
+    "Nome": "GENNARO",
+    "Iscrizione": "1986",
+    "Ramo": "MECCANICA"
+  },
+  {
+    "Nr": "302",
+    "Cognome": "CIULLO",
+    "Nome": "RINO",
+    "Iscrizione": "1989",
+    "Ramo": "ELETTROTECNICA"
+  },
+  {
+    "Nr": "424",
+    "Cognome": "COCCA",
+    "Nome": "ANGELO",
+    "Iscrizione": "2020",
+    "Ramo": ""
+  },
+  {
+    "Nr": "235",
+    "Cognome": "COLETTA",
+    "Nome": "CARMINE",
+    "Iscrizione": "1985",
+    "Ramo": "MECCANICA"
+  },
+  {
+    "Nr": "331",
+    "Cognome": "CORONA",
+    "Nome": "ENZO",
+    "Iscrizione": "1995",
+    "Ramo": "ELETTROTECNICA"
+  },
+  {
+    "Nr": "305",
+    "Cognome": "COSTANTINI",
+    "Nome": "EDOARDO",
+    "Iscrizione": "1989",
+    "Ramo": "ELETTROTECNICA"
+  },
+  {
+    "Nr": "360",
+    "Cognome": "CUCINIELLO",
+    "Nome": "LORIS",
+    "Iscrizione": "2001",
+    "Ramo": "ELETTROTECNICA"
+  },
+  {
+    "Nr": "371",
+    "Cognome": "CUCINIELLO",
+    "Nome": "WILLIAM",
+    "Iscrizione": "2003",
+    "Ramo": "ELETTROTECNICA AUTOMAZIONE"
+  },
+  {
+    "Nr": "297",
+    "Cognome": "D'AGATA",
+    "Nome": "GIUSEPPE",
+    "Iscrizione": "1989",
+    "Ramo": "ELETTROTECNICA"
+  },
+  {
+    "Nr": "433",
+    "Cognome": "D'ALESSIO",
+    "Nome": "LORENZO",
+    "Iscrizione": "2022",
+    "Ramo": ""
+  },
+  {
+    "Nr": "134",
+    "Cognome": "D'ALOIA",
+    "Nome": "CARMINE",
+    "Iscrizione": "1976",
+    "Ramo": "TERMOTECNICA"
+  },
+  {
+    "Nr": "410",
+    "Cognome": "DE   PASQUALE",
+    "Nome": "MAURO",
+    "Iscrizione": "2016",
+    "Ramo": "MECCANICA"
+  },
+  {
+    "Nr": "391",
+    "Cognome": "DE  ROSA",
+    "Nome": "TONINO",
+    "Iscrizione": "2009",
+    "Ramo": "MECCANICA"
+  },
+  {
+    "Nr": "352",
+    "Cognome": "DE  VITA",
+    "Nome": "VALERIANO",
+    "Iscrizione": "2000",
+    "Ramo": "ELETTROTECNICA"
+  },
+  {
+    "Nr": "415",
+    "Cognome": "DE BLASIO ",
+    "Nome": "VITTORIO",
+    "Iscrizione": "2018",
+    "Ramo": "CHIMICO"
+  },
+  {
+    "Nr": "347",
+    "Cognome": "DE GIOVANNI",
+    "Nome": "ROBERTO",
+    "Iscrizione": "1996",
+    "Ramo": "ELETTROTECNICA"
+  },
+  {
+    "Nr": "311",
+    "Cognome": "DE GREGORIO",
+    "Nome": "FERNANDO",
+    "Iscrizione": "1990",
+    "Ramo": "MECCANICA"
+  },
+  {
+    "Nr": "422",
+    "Cognome": "DE LUCA ",
+    "Nome": "GIANCARLO",
+    "Iscrizione": "2020",
+    "Ramo": ""
+  },
+  {
+    "Nr": "387",
+    "Cognome": "DE NIGRIS",
+    "Nome": "MARCELLO",
+    "Iscrizione": "2008",
+    "Ramo": "COSTR.AERONAUTICHE"
+  },
+  {
+    "Nr": "202",
+    "Cognome": "DE SANTIS",
+    "Nome": "PAOLO",
+    "Iscrizione": "1982",
+    "Ramo": "MECCANICA"
+  },
+  {
+    "Nr": "392",
+    "Cognome": "DEL MONACO",
+    "Nome": "UBALDO",
+    "Iscrizione": "2010",
+    "Ramo": "ELETTRONICA AUTOMAZIONE"
+  },
+  {
+    "Nr": "111",
+    "Cognome": "DI  PAOLA",
+    "Nome": "PIETRO",
+    "Iscrizione": "1975",
+    "Ramo": "MECCANICA"
+  },
+  {
+    "Nr": "337",
+    "Cognome": "DI  PASQUALE",
+    "Nome": "GIULIANO",
+    "Iscrizione": "1997",
+    "Ramo": "ELETTR0TECNICA"
+  },
+  {
+    "Nr": "289",
+    "Cognome": "DI MANGANO               VINCENZO",
+    "Nome": "VINCENZO",
+    "Iscrizione": "1989",
+    "Ramo": "MECCANICA"
+  },
+  {
+    "Nr": "411",
+    "Cognome": "ERRICO",
+    "Nome": "VINCENZO",
+    "Iscrizione": "2016",
+    "Ramo": "ELETTR0NICA TELCOMUNICAZIONI"
+  },
+  {
+    "Nr": "236",
+    "Cognome": "ESPOSITO",
+    "Nome": "GIUSEPPE GIOVANNI",
+    "Iscrizione": "1986",
+    "Ramo": "ELETTROTECNICA"
+  },
+  {
+    "Nr": "274",
+    "Cognome": "FACCHIANO",
+    "Nome": "GIUSEPPE",
+    "Iscrizione": "1988",
+    "Ramo": "ELETTROTECNICA"
+  },
+  {
+    "Nr": "335",
+    "Cognome": "FANFULLA",
+    "Nome": "GIOVANNI",
+    "Iscrizione": "1996",
+    "Ramo": "ELETTROTECNICA"
+  },
+  {
+    "Nr": "439",
+    "Cognome": "FANFULLA ",
+    "Nome": "LORENZO",
+    "Iscrizione": "2023",
+    "Ramo": ""
+  },
+  {
+    "Nr": "178",
+    "Cognome": "FINELLI",
+    "Nome": "DOMENICO",
+    "Iscrizione": "1979",
+    "Ramo": "EDILIZIA"
+  },
+  {
+    "Nr": "402",
+    "Cognome": "FRANCESCA",
+    "Nome": "GIACOMO",
+    "Iscrizione": "2016",
+    "Ramo": "ELETTROTECNICA AUTOMAZIONE"
+  },
+  {
+    "Nr": "287",
+    "Cognome": "FUCCI",
+    "Nome": "DOMENICO",
+    "Iscrizione": "1989",
+    "Ramo": "MECCANICA"
+  },
+  {
+    "Nr": "374",
+    "Cognome": "FUCCIO",
+    "Nome": "GIUSEPPE ANTONIO",
+    "Iscrizione": "2003",
+    "Ramo": "ELETTROTECNICA AUTOMAZIONE"
+  },
+  {
+    "Nr": "351",
+    "Cognome": "FUSCO",
+    "Nome": "GIANCARLO",
+    "Iscrizione": "1999",
+    "Ramo": "MECCANICA  ERGON"
+  },
+  {
+    "Nr": "378",
+    "Cognome": "GALIERI",
+    "Nome": "ROBERTO",
+    "Iscrizione": "2006",
+    "Ramo": "ELETTROTECNICA"
+  },
+  {
+    "Nr": "367",
+    "Cognome": "GAROFANO",
+    "Nome": "ANGELO",
+    "Iscrizione": "2002",
+    "Ramo": "METALMECCANICA"
+  },
+  {
+    "Nr": "369",
+    "Cognome": "GIGANTE",
+    "Nome": "LEONARDO",
+    "Iscrizione": "2003",
+    "Ramo": "MECCANICA"
+  },
+  {
+    "Nr": "262",
+    "Cognome": "GIOIOSO",
+    "Nome": "GIOVANNI",
+    "Iscrizione": "1987",
+    "Ramo": "MECCANICA"
+  },
+  {
+    "Nr": "192",
+    "Cognome": "GRIMALDI",
+    "Nome": "MARIO",
+    "Iscrizione": "1981",
+    "Ramo": "MECCANICA"
+  },
+  {
+    "Nr": "264",
+    "Cognome": "IACOVIELLO",
+    "Nome": "ANGELO",
+    "Iscrizione": "1987",
+    "Ramo": "ELETTROTECNICA"
+  },
+  {
+    "Nr": "421",
+    "Cognome": "IACOVIELLO",
+    "Nome": "DAVIDE",
+    "Iscrizione": "2019",
+    "Ramo": ""
+  },
+  {
+    "Nr": "288",
+    "Cognome": "IADANZA",
+    "Nome": "COSIMO",
+    "Iscrizione": "1989",
+    "Ramo": "TERMOTECNICA"
+  },
+  {
+    "Nr": "438",
+    "Cognome": "IANNELLI",
+    "Nome": "GIOACCHINO",
+    "Iscrizione": "2023",
+    "Ramo": ""
+  },
+  {
+    "Nr": "370",
+    "Cognome": "INGLESE",
+    "Nome": "NICOLINO",
+    "Iscrizione": "2003",
+    "Ramo": "MECCANICA"
+  },
+  {
+    "Nr": "429",
+    "Cognome": "INTORCIA",
+    "Nome": "RICCARDO",
+    "Iscrizione": "2021",
+    "Ramo": ""
+  },
+  {
+    "Nr": "383",
+    "Cognome": "IONNO",
+    "Nome": "ANTONIO",
+    "Iscrizione": "2007",
+    "Ramo": "ELETTRONICA e TELECOMUNICAZIONI"
+  },
+  {
+    "Nr": "346",
+    "Cognome": "IZZO",
+    "Nome": "MASSIMO",
+    "Iscrizione": "1998",
+    "Ramo": "ELETTROTECNICA"
+  },
+  {
+    "Nr": "418",
+    "Cognome": "KUNZ",
+    "Nome": "DAVIDE GIANMARIA",
+    "Iscrizione": "2018",
+    "Ramo": "ELETTROT.ED AUTOMAZIONE"
+  },
+  {
+    "Nr": "323",
+    "Cognome": "LAMPARELLI",
+    "Nome": "MARIO",
+    "Iscrizione": "1980",
+    "Ramo": "ELETTROTECNICA"
+  },
+  {
+    "Nr": "426",
+    "Cognome": "LANDOLFI",
+    "Nome": "GIOVANNI",
+    "Iscrizione": "2021",
+    "Ramo": ""
+  },
+  {
+    "Nr": "291",
+    "Cognome": "LEONI",
+    "Nome": "ADRIANO",
+    "Iscrizione": "1989",
+    "Ramo": "ELETTROTECNICA"
+  },
+  {
+    "Nr": "201",
+    "Cognome": "LEONI",
+    "Nome": "ALESSANDRO",
+    "Iscrizione": "1982",
+    "Ramo": "ELETTROTECNICA"
+  },
+  {
+    "Nr": "401",
+    "Cognome": "LEPORE",
+    "Nome": "ALFONSO",
+    "Iscrizione": "2013",
+    "Ramo": "ELETTRONICA TELECOMUNICAZIONI"
+  },
+  {
+    "Nr": "390",
+    "Cognome": "LOMBARDI",
+    "Nome": "MARIANGELA",
+    "Iscrizione": "2008",
+    "Ramo": "TERMOTECNICA"
+  },
+  {
+    "Nr": "349",
+    "Cognome": "LOMBARDI",
+    "Nome": "NICOLA",
+    "Iscrizione": "1999",
+    "Ramo": "ELETTROTECNICA"
+  },
+  {
+    "Nr": "372",
+    "Cognome": "MAFFEI",
+    "Nome": "DANILO",
+    "Iscrizione": "2003",
+    "Ramo": "MECCANICA"
+  },
+  {
+    "Nr": "408",
+    "Cognome": "MASCIA",
+    "Nome": "LUCA",
+    "Iscrizione": "2015",
+    "Ramo": "MECCANICA"
+  },
+  {
+    "Nr": "368",
+    "Cognome": "MASSIMO",
+    "Nome": "ESPOSITO PIERLUIGI",
+    "Iscrizione": "2002",
+    "Ramo": "INDUSTRIE MECCANICHE"
+  },
+  {
+    "Nr": "406",
+    "Cognome": "MASTRACCHIO",
+    "Nome": "FRANCESCO",
+    "Iscrizione": "2015",
+    "Ramo": "ELETTR0NICA TELCOM"
+  },
+  {
+    "Nr": "430",
+    "Cognome": "MASTRANTONE",
+    "Nome": "ANDREA",
+    "Iscrizione": "2022",
+    "Ramo": ""
+  },
+  {
+    "Nr": "379",
+    "Cognome": "MATURO",
+    "Nome": "PASQUALE",
+    "Iscrizione": "2006",
+    "Ramo": "ELETTROTECNICA AUTOMAZIONE"
+  },
+  {
+    "Nr": "353",
+    "Cognome": "MAZZA",
+    "Nome": "ANTONIO",
+    "Iscrizione": "2000",
+    "Ramo": "ELETTROTECNICA"
+  },
+  {
+    "Nr": "427",
+    "Cognome": "MAZZARELLI",
+    "Nome": "NICOLA",
+    "Iscrizione": "2021",
+    "Ramo": ""
+  },
+  {
+    "Nr": "397",
+    "Cognome": "MESISCA",
+    "Nome": "LUDOVICO",
+    "Iscrizione": "2011",
+    "Ramo": "MECCANICA"
+  },
+  {
+    "Nr": "413",
+    "Cognome": "MICCO",
+    "Nome": "LUCA",
+    "Iscrizione": "2017",
+    "Ramo": "Elettrotecnica e Automaz."
+  },
+  {
+    "Nr": "423",
+    "Cognome": "MIRRA",
+    "Nome": "GIOSUE'",
+    "Iscrizione": "2020",
+    "Ramo": ""
+  },
+  {
+    "Nr": "322",
+    "Cognome": "MONGILLLO",
+    "Nome": "ANTONIO",
+    "Iscrizione": "1990",
+    "Ramo": "ELETTROTECNICA"
+  },
+  {
+    "Nr": "341",
+    "Cognome": "MONGILLLO",
+    "Nome": "PASQUALE",
+    "Iscrizione": "1998",
+    "Ramo": "ELETTROTECNICA"
+  },
+  {
+    "Nr": "432",
+    "Cognome": "MONGILLO",
+    "Nome": "ANGELO URIELE",
+    "Iscrizione": "2022",
+    "Ramo": ""
+  },
+  {
+    "Nr": "425",
+    "Cognome": "MONGILLO",
+    "Nome": "GIOVANNI",
+    "Iscrizione": "2020",
+    "Ramo": ""
+  },
+  {
+    "Nr": "400",
+    "Cognome": "MUSTO",
+    "Nome": "DAVIDE",
+    "Iscrizione": "2013",
+    "Ramo": "ELETTR0TECNICA/AUTOMAZ"
+  },
+  {
+    "Nr": "376",
+    "Cognome": "NARCISO",
+    "Nome": "BRUNO",
+    "Iscrizione": "2006",
+    "Ramo": "ELETTROTECNICA"
+  },
+  {
+    "Nr": "316",
+    "Cognome": "PADUANO",
+    "Nome": "LIBERATO PIETRO",
+    "Iscrizione": "1990",
+    "Ramo": "ELETTROTECNICA"
+  },
+  {
+    "Nr": "431",
+    "Cognome": "PEPE",
+    "Nome": "ANTONIO",
+    "Iscrizione": "2022",
+    "Ramo": ""
+  },
+  {
+    "Nr": "416",
+    "Cognome": "PONTECORVO",
+    "Nome": "GAETANO",
+    "Iscrizione": "2018",
+    "Ramo": "CHIMICO"
+  },
+  {
+    "Nr": "238",
+    "Cognome": "POPPA",
+    "Nome": "ANTONIO",
+    "Iscrizione": "1986",
+    "Ramo": "TERMOTECNICA"
+  },
+  {
+    "Nr": "354",
+    "Cognome": "POPPA",
+    "Nome": "FEDERICO",
+    "Iscrizione": "2000",
+    "Ramo": "ELETTROTECNICA"
+  },
+  {
+    "Nr": "263",
+    "Cognome": "PORCARO",
+    "Nome": "GIOVANNI",
+    "Iscrizione": "1987",
+    "Ramo": "ELETTROTECNICA"
+  },
+  {
+    "Nr": "436",
+    "Cognome": "RANAURO",
+    "Nome": "ANTONIO",
+    "Iscrizione": "2023",
+    "Ramo": ""
+  },
+  {
+    "Nr": "277",
+    "Cognome": "RICCIARDI",
+    "Nome": "EMANUELE ANTONIO",
+    "Iscrizione": "1988",
+    "Ramo": "ELETTROTECNICA"
+  },
+  {
+    "Nr": "420",
+    "Cognome": "RICCIO",
+    "Nome": "ANNIBALE",
+    "Iscrizione": "2019",
+    "Ramo": "EDILE"
+  },
+  {
+    "Nr": "339",
+    "Cognome": "ROMANO",
+    "Nome": "ROSARIO",
+    "Iscrizione": "1997",
+    "Ramo": "METALMECCANICA"
+  },
+  {
+    "Nr": "125",
+    "Cognome": "ROSELLA",
+    "Nome": "PELLEGRINO GIOVANNI",
+    "Iscrizione": "1975",
+    "Ramo": "MECCANICA"
+  },
+  {
+    "Nr": "57",
+    "Cognome": "RUGGIERO",
+    "Nome": "ASSUNTO",
+    "Iscrizione": "1972",
+    "Ramo": "ELETTROTECNICA"
+  },
+  {
+    "Nr": "279",
+    "Cognome": "RUSSO",
+    "Nome": "ANGELO",
+    "Iscrizione": "1988",
+    "Ramo": "MECCANICA"
+  },
+  {
+    "Nr": "7",
+    "Cognome": "SALIERNO",
+    "Nome": "LUIGI",
+    "Iscrizione": "1970",
+    "Ramo": "ELETTROTECNICA"
+  },
+  {
+    "Nr": "317",
+    "Cognome": "SALOMONE",
+    "Nome": "FRANCESCO",
+    "Iscrizione": "1990",
+    "Ramo": "ELETTROTECNICA"
+  },
+  {
+    "Nr": "395",
+    "Cognome": "SAVOIA",
+    "Nome": "GIOVANNI",
+    "Iscrizione": "2011",
+    "Ramo": "TERMOTECNICA"
+  },
+  {
+    "Nr": "398",
+    "Cognome": "SCIALO'",
+    "Nome": "GIOVANNI",
+    "Iscrizione": "2012",
+    "Ramo": "TERMOTECNICA"
+  },
+  {
+    "Nr": "382",
+    "Cognome": "SILVESTRI",
+    "Nome": "FRANCESCO",
+    "Iscrizione": "2007",
+    "Ramo": "ELETTRONICA / TELEC."
+  },
+  {
+    "Nr": "409",
+    "Cognome": "SIMEONE",
+    "Nome": "MANUEL",
+    "Iscrizione": "2016",
+    "Ramo": "ELETTROTECNICA AUTOM."
+  },
+  {
+    "Nr": "285",
+    "Cognome": "SIMONE",
+    "Nome": "MICHELE ANTONIO",
+    "Iscrizione": "1989",
+    "Ramo": "ELETTROTECNICA"
+  },
+  {
+    "Nr": "365",
+    "Cognome": "STANZIALE",
+    "Nome": "MICHELE",
+    "Iscrizione": "2002",
+    "Ramo": "ELETTRONICA IND."
+  },
+  {
+    "Nr": "149",
+    "Cognome": "TESTA",
+    "Nome": "DOMENICO",
+    "Iscrizione": "1976",
+    "Ramo": "MECCANICA"
+  },
+  {
+    "Nr": "389",
+    "Cognome": "TESTA",
+    "Nome": "GIUSEPPE",
+    "Iscrizione": "2008",
+    "Ramo": "ELETTROTECNICA"
+  },
+  {
+    "Nr": "386",
+    "Cognome": "TREPPIEDI",
+    "Nome": "MASSIMILIANO",
+    "Iscrizione": "2008",
+    "Ramo": "TERMOTECNICA"
+  },
+  {
+    "Nr": "282",
+    "Cognome": "URCIUOLI",
+    "Nome": "GIACOMO",
+    "Iscrizione": "1988",
+    "Ramo": "ELETTROTECNICA"
+  },
+  {
+    "Nr": "217",
+    "Cognome": "VARRICCHIO",
+    "Nome": "POMPEO",
+    "Iscrizione": "1984",
+    "Ramo": "ELETTROTECNICA"
+  },
+  {
+    "Nr": "396",
+    "Cognome": "VITELLI",
+    "Nome": "EMILIO",
+    "Iscrizione": "2011",
+    "Ramo": "TERMOTECNICA"
+  },
+  {
+    "Nr": "414",
+    "Cognome": "ZEOLI",
+    "Nome": "MICHELE",
+    "Iscrizione": "2018",
+    "Ramo": "MECCANICA"
+  }
+]
