@@ -35,7 +35,7 @@ export default async function Albo() {
           <a href="https://www.albounicoperind.it/" target="_blank">
             albounicoperind.it
           </a>{" "}
-          per l'albo nazionale.{" "}
+          per l&apos;albo nazionale.{" "}
         </p>
       </main>
     </div>
