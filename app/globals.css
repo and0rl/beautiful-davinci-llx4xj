@@ -120,7 +120,7 @@ body {
   line-height: 1.6;
 }
 
-main {
+.holy-grail-container {
   /* holy grail */
   flex: 1;
 }
@@ -284,7 +284,7 @@ ul.direttivo li {
   grid-template-columns: 1fr 1fr;
 }
 
-@media screen and (max-width: 720px) {
+@media screen and (max-width: 677px) {
   .logo {
     width: 45px;
   }
@@ -294,6 +294,9 @@ ul.direttivo li {
   nav ul {
     margin-top: 0.2rem;
   }
+}
+
+@media screen and (max-width: 720px) {
 }
 
 @media screen and (max-width: 540px) {
@@ -324,6 +327,11 @@ footer {
 .footer-wrapper {
   display: flex;
   justify-content: space-between;
+  gap: 1rem;
+}
+
+small.year {
+  flex: 1;
 }
 
 h2.title {
@@ -346,10 +354,26 @@ h2.title {
   gap: 1rem;
 }
 
+.mappa {
+  max-height: 25vh;
+  object-fit: none;
+  margin-top: 77px;
+}
+
+@media screen and (max-width: 1024px) {
+  .mappa {
+    overflow-x: visible;
+  }
+}
+
 /* w3c table css */
 
 .albo-table {
   overflow-x: auto;
+}
+
+tbody {
+  font-size: 1rem;
 }
 
 #iscritti {
@@ -361,7 +385,8 @@ h2.title {
 #iscritti td,
 #iscritti th {
   border: 1px solid #ddd;
-  padding: 8px;
+  padding-inline: 8px;
+  padding-block: 4px;
 }
 
 #iscritti tr:nth-child(even) {
@@ -373,8 +398,8 @@ h2.title {
 } */
 
 #iscritti th {
-  padding-top: 12px;
-  padding-bottom: 12px;
+  padding-top: 6px;
+  padding-bottom: 6px;
   text-align: left;
   background-color: var(--clr-primary-500);
   color: white;

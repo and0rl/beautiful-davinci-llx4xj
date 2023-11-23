@@ -22,9 +22,22 @@ export default async function Albo() {
   let albo = await res.json();
 
   return (
-    <main className="flow content-grid">
-      <h2 className="title">Elenco Iscritti all&apos;Albo</h2>
-      <AlboTable albo={albo} />
-    </main>
+    <div className="holy-grail-container">
+      <main className="flow content-grid">
+        <h2 className="title">Elenco Iscritti all&apos;Albo</h2>
+        <AlboTable albo={albo} />
+        <p>
+          Aggiornata a{" "}
+          {new Date().toLocaleDateString("it-IT", {
+            month: "long",
+          })}{" "}
+          {new Date().getFullYear()}. Visita{" "}
+          <a href="https://www.albounicoperind.it/" target="_blank">
+            albounicoperind.it
+          </a>{" "}
+          per l'albo nazionale.{" "}
+        </p>
+      </main>
+    </div>
   );
 }

@@ -69,7 +69,9 @@ export default function AlboTable({ albo }: Props) {
                     {columns.map((column) => {
                       return (
                         <td key={column} title={iscritti[column as keyof Albo]}>
-                          {iscritti[column as keyof Albo].slice(0, 15)}
+                          {column === "Ramo"
+                            ? iscritti[column as keyof Albo].slice(0, 15)
+                            : iscritti[column as keyof Albo]}
                         </td>
                       );
                     })}
