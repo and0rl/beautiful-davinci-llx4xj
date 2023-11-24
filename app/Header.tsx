@@ -1,9 +1,12 @@
 "use client";
+import { usePathname } from "next/navigation";
 import Link from "next/link";
 import Image from "next/image";
 import logo from "../public/logo.svg";
 
 export default function Header() {
+  const currentPath = usePathname();
+ 
   return (
     <header className="primary-header content-grid">
       <div className="primary-header__layout breakout">
@@ -15,16 +18,33 @@ export default function Header() {
         <nav>
           <ul>
             <li>
-              <Link href="/">Ordine</Link>
+              <Link href="/" className={currentPath === "/" ? "active" : ""}>
+                Ordine
+              </Link>
             </li>
             <li>
-              <Link href="/albo">Albo</Link>
+              <Link
+                href="/albo"
+                className={currentPath === "/albo" ? "active" : ""}
+              >
+                Albo
+              </Link>
             </li>
             <li>
-              <Link href="/bacheca">Bacheca</Link>
+              <Link
+                href="/bacheca"
+                className={currentPath === "/bacheca" ? "active" : ""}
+              >
+                Bacheca
+              </Link>
             </li>
             <li>
-              <Link href="/contatti">Contatti</Link>
+              <Link
+                href="/contatti"
+                className={currentPath === "/contatti" ? "active" : ""}
+              >
+                Contatti
+              </Link>
             </li>
           </ul>
         </nav>

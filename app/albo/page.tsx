@@ -14,7 +14,7 @@ export default async function Albo() {
     albo: Albo[];
   };
 
-  const res = await fetch("https://sheetdb.io/api/v1/8yxg5dy97o3nh", {
+  const res = await fetch(process.env.api!, {
     next: {
       revalidate: 3600000,
     },

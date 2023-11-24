@@ -234,8 +234,12 @@ nav a {
 }
 
 nav a:hover,
-nav a:focus {
-  color: var(--clr-primay-500);
+nav a:active {
+  color: var(--clr-primay-400);
+  text-decoration: underline;
+}
+
+.active {
   text-decoration: underline;
 }
 

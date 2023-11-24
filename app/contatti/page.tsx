@@ -28,7 +28,7 @@ export default function Bacheca() {
           C.F. 80003610625
         </address>
         <p>
-          &#9990; <a href="tel:082447049">0824 47049</a>{" "}
+          <b>&#9990;</b> <a href="tel:082447049">0824 47049</a>{" "}
         </p>
         <p>
           &#9993;{" "}

@@ -1,8 +1,10 @@
 import Image from "next/image";
+
 import arcoTraiano from "../public/arco-traiano.jpg";
 import young from "../public/young.jpg";
 
 export default function Home() {
+  
   return (
     <main className="flow content-grid">
       <h1 className="site-title-alt">
